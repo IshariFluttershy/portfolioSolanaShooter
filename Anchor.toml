@@ -1,0 +1,17 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+portfolioshooter = "4jj12kCUbesxijcoXvfsm5KnsHAB1UFyLCTwH9vmLXBr"
+joueur = "9xrk3h285DTjDVLewTfwLekYibvpRSTq2a8GjCmF4gqi"
+
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/root/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
